@@ -1,0 +1,33 @@
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+</style>
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', system-ui, -apple-system, sans-seri;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.navbar,
+.hero,
+.info-section,
+.quote-container,
+.cta-banner {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.site-header{
+    background-color: #1F2937;
+    color:#F9FAF8;
+    padding: 1rem 2rem 6rem;
+}

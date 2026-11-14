@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   <header>
-    <nav>
+   <header class="site-header">
+    <nav class="navbar">
       <a href="#">Header Logo</a>
       <ul>
         <li><a href="#">header link one</a></li>
@@ -17,60 +17,60 @@
       </ul>
     </nav>
 
-    <div>
-      <div>
-        <h3 class="title">This website is awesome</h1>
-        <p class="body">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
-        <button class="singup-button">Sign up</button>
+    <div class="hero">
+      <div class="hero-content">
+        <h3 class="hero-title">This website is awesome</h1>
+        <p class="hero-subtext">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
+        <button class="btn btn-primary">Sign up</button>
       </div>
-      <div>
+      <div class="hero-image">
         <img src="assets/placeholder.jpg" alt="Its an image">
       </div>
     </div>
   </header>
 
   <main>
-    <section>
-        <h3 class="title">Some random information!</h3>
-        <div>
-            <figure>
+    <section class="info-section">
+        <h3 class="info-title">Some random information!</h3>
+        <div class="info-cards">
+            <figure class="card">
                 <img src="assets/infoimg1.jpg" alt="information img1">
-                <figurecaption>This is some subtext under an illustration or image</figurecaption>
+                <figurecaption class="card-text">This is some subtext under an illustration or image</figurecaption>
             </figure>
-            <figure>
+            <figure class="card">
                 <img src="assets/infoimg2.jpg" alt="information img2">
-                <figurecaption>This is some subtext under an illustration or image</figurecaption>
+                <figurecaption class="card-text">This is some subtext under an illustration or image</figurecaption>
             </figure>
-            <figure>
+            <figure class="card">
                 <img src="assets/infoimg3.jpg" alt="information img3">
-                <figurecaption>This is some subtext under an illustration or image</figurecaption>
+                <figurecaption class="card-text">This is some subtext under an illustration or image</figurecaption>
             </figure>
-            <figure>
+            <figure class="card">
                 <img src="assets/infoimg4.jpg" alt="information img4">
-                <figurecaption>This is some subtext under an illustration or image</figurecaption>
+                <figurecaption class="card-text">This is some subtext under an illustration or image</figurecaption>
             </figure>
         </div>
     </section>
 
-    <section>
-        <blockquote>
-            <p>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</p>
-            <cite>Thor - God of Thunder</cite>
+    <section class="quote-section">
+        <blockquote class="quote-container">
+            <p class="quote-text">This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</p>
+            <cite class="quote-author">Thor - God of Thunder</cite>
         </blockquote>
     </section>
 
-    <section>
-        <div>
-            <div>
-                <h3>Call to action! It's time!</h3>
-                <p>Sign up for our product by clicking that button right over there!</p>
+    <section class="cta-section">
+        <div class="cta-banner">
+            <div class="cta-content">
+                <h3 class="cta-title">Call to action! It's time!</h3>
+                <p class="cta-subtext">Sign up for our product by clicking that button right over there!</p>
             </div>
-            <button class="singup-button">Sign up</button>
+            <button class="btn btn-outline">Sign up</button>
         </div>
     </section>
   </main>
-  <footer>
-    <p>Copyright &copy; The Odin Project 2021</p>
+  <footer class="site footer">
+    <p class="footer-text">Copyright &copy; The Odin Project 2021</p>
   </footer>
 
 </body>
